@@ -1,0 +1,48 @@
+.catPortlet{
+	margin-top: 8px;
+	width: 340px;
+	position: relative;
+	float: left;
+	margin-bottom: 22px;
+}
+
+	.catPortlet .title{
+		font-weight: bold;
+		color: #fff;
+		padding: 5px 27px 5px 16px;
+		background: url("../images/page-title-bg.jpg") no-repeat right #84d73b;
+		float: left;
+		*margin-bottom: -7px;
+	}
+
+	.catPortlet img{
+		float:left;
+		margin-right: 13px;
+	}
+
+	.catPortlet p{
+		font-size: 12px;
+		line-height: 18px;
+		padding-left: 10px;
+		padding-right: 10px;
+		margin-bottom: 20px;
+	}
+
+	.catPortlet .readMore{
+		font-size: 12px;
+		color: #e4b204;
+		padding-left: 9px;
+		background: url("../images/triangle-right-yellow.jpg") no-repeat left center;
+		position: absolute;
+		bottom: 0;
+		right: 0;
+	}
+
+	.catPortlet .readMore:hover{
+		color: #fff\9;
+		background: url("../images/triangle-right-anti-yellow.jpg") no-repeat left center #e4b204\9;
+	}
+
+		.catPortlet .readMore span{
+			color: #e4b204;
+		}

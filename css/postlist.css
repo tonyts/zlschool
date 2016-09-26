@@ -1,0 +1,66 @@
+.article .postList{
+	border-top: solid 1px #6bb905;
+	border-bottom: solid 1px #6bb905;
+	padding: 22px 0;
+}
+
+	.article .postList li{
+		padding: 5px;
+	}
+
+		.article .postList a{
+			display: block;
+			width: 570px;
+		}
+
+		.article .postList a:hover{
+			color: #e4b204;
+		}
+
+		.article .postList li > span{
+			float: right;
+			margin-right: 5px;
+			color: #b5bfa9;
+		}
+
+		.article .postList .roll span {
+		    padding: 0 5px;
+	    }
+
+		.article .postList .roll span:after {
+		    padding: 0 5px;
+	    }
+
+.pageIndicator{
+	margin-top: 10px;
+	float: right;
+}
+
+	.pageIndicator .active,
+	.pageIndicator a:hover{
+		color: #6cb109;
+	}
+
+	.pageIndicator a{
+		margin: 0 3px;
+	}
+
+	.pageIndicator .first{
+		padding-left: 11px;
+		background: url('../images/triangle-double-left-green.jpg') no-repeat left center;
+	}
+
+	.pageIndicator .prev{
+		padding-left: 7px;
+		background: url('../images/triangle-left-green.jpg') no-repeat left center;
+	}
+
+	.pageIndicator .next{
+		padding-right: 7px;
+		background: url('../images/triangle-right-green.jpg') no-repeat right center;
+	}
+
+	.pageIndicator .last{
+		padding-right: 11px;
+		background: url('../images/triangle-double-right-green.jpg') no-repeat right center;
+	}

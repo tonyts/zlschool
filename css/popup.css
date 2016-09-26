@@ -1,0 +1,62 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: arial,helvetica,verdana,SimSun,sans-serif;
+	font-size: 14px;
+	color: #5e5e5e;
+}
+
+img{
+	border: 0;
+}
+
+body{
+	width: 512px;
+}
+
+table{
+	width: 100%;
+	margin-top: 30px;
+}
+
+	th{
+		font-weight: normal;
+		text-align: right;
+		vertical-align: top;
+		width: 71px;
+		line-height: 29px;
+	}
+
+		input, textarea{
+			border: 1px solid #e0dbd3;
+			height: 27px;
+			line-height: 27px;
+			padding: 0 5px;
+			background: #fff;
+		}
+
+		textarea{
+			height: 298px;
+		}
+
+.short{
+	width: 174px;
+}
+
+.long{
+	width: 376px;
+}
+
+.submit{
+	cursor: pointer;
+	width: 64px;
+	height: 27px;
+	line-height: 27px;
+	display: block;
+	float: right;
+	margin-right: 33px;
+	background: url("../images/button-small-bg-orange.jpg") no-repeat;
+	color: #fff;
+	font-weight: bold;
+	text-align: center;
+}

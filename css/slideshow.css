@@ -1,0 +1,74 @@
+.slideShow{
+	width: 727px;
+	height: 275px;
+	position: relative;
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+
+	.slideShow .sliderContainer{
+		width: 2908px;
+		height: 275px;
+		position: absolute;
+		top: 0;
+		left: 0;
+		overflow: hidden;
+	}
+
+		.slideShow .sliderContainer .slider{
+			float: left;
+		}
+
+			.slideShow .sliderContainer .slider img{
+				width: 727px;
+			}
+
+	.slideShow .indicator{
+		width: 181px;
+		height: 8px;
+		position: absolute;
+		left: 0;
+		top: 227px;
+		background: url('../images/slide-indicator.png') no-repeat center;
+	}
+
+	.slideShow .navContainer{
+		position: absolute;
+		top: 235px;
+		left: 0;
+		overflow: hidden;
+		width: 728px;
+		height: 40px;
+	}
+
+		.slideShow .navContainer .navBtn{
+			width: 181px;
+			height: 40px;
+			margin-right: 1px;
+			float: left;
+		}
+
+			.slideShow .navContainer .navBtn .shadeDiv{
+				width: 181px;
+				height: 40px;
+				background-color:#000;
+				opacity:0.5;
+				filter:alpha(opacity=50);
+				position:absolute;
+			}
+
+			.slideShow .navContainer .navBtn .shadeDiv.active{
+				background-color:#92cc45;
+				opacity:1;
+				filter:alpha(opacity=100);
+			}
+
+			.slideShow .navContainer .navBtn a{
+				width: 181px;
+				height: 40px;
+				position:absolute;
+				text-align: center;
+				line-height: 40px;
+				color: #fff;
+				font-size: 12px;
+			}
